@@ -1,6 +1,7 @@
 import random
-
-r = random.randint(1,100)
+range_down = eval(input('請輸入下限:'))
+range_up = eval(input("請輸入上限:"))
+r = random.randint(range_down,range_up)
 count = 0
 while True:
     count+=1
